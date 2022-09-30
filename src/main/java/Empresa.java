@@ -7,6 +7,16 @@ public class Empresa {
     private String nomeEmpresa;
     private String nomeDiretor;
 
+    private String cnpj;
+
+    public String getCnpj() {
+        return cnpj;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
+    }
+
     public String getNomeDiretor()
     {
         return nomeDiretor;
