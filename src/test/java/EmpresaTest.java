@@ -18,7 +18,7 @@ class EmpresaTest {
     @Test
     void deveRetornarCNPJ()
     {
-        Empresa.getInstance().setNomeDiretor("11.111.111/0001-11");
-        assertEquals("11.111.111/0001-11", Empresa.getInstance().getNomeDiretor());
+        Empresa.getInstance().setCnpj("11.111.111/0001-11");
+        assertEquals("11.111.111/0001-11", Empresa.getInstance().getCnpj());
     }
 }
